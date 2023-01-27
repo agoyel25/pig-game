@@ -3,7 +3,7 @@
 
 //selecting items
 const score0el = document.querySelector('#score--0');
-const score1el = document.getElementById('score--1');
+const score1el = document.querySelector('#score--1');
 const diceel = document.querySelector('.dice');
 const btnNEw = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
@@ -22,6 +22,8 @@ let playing = true;
 btnNEw.addEventListener('click', function () {
   score0el.textContent = 0;
   score1el.textContent = 0;
+  currentScore0.textContent = 0;
+  currentScore1.textContent = 0;
   diceel.classList.add('hidden');
   player0El.classList.remove('player--winner')
   player1El.classList.remove('player--winner')
