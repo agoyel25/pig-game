@@ -23,9 +23,14 @@ btnNEw.addEventListener('click', function () {
   score0el.textContent = 0;
   score1el.textContent = 0;
   diceel.classList.add('hidden');
+  player0El.classList.remove('player--winner')
+  player1El.classList.remove('player--winner')
+  player1El.classList.remove('player--active')
+  player0El.classList.add('player--active')
   let currentScore = 0;
   let activePlayer = 0;
   const scores = [0, 0];
+  playing = true;
 });
 
 const switchPlayer = function () {
