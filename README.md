@@ -16,9 +16,5 @@ Pig game from Jonas Schmedtmann Js tutorial
 ## Features to implement 💡🤔
 - [ ] If the user clicks on hold by mistake before rolling the dice then the games would alert the player of the error and have a chance to roll the dice.
 - [ ] Laderboard where the overall best player would be displayed in the page for Scores.
-- [ ] Players can login into sessions to see thier personal records and achievements.
-- [ ] I may implement 2 dice.
-- [ ] A player loses his score when they roll two 6, then it is the next player's turn to roll the dice
-- [ ] Implement a feature where the players can set the score for winning. Example I may change the Score that make me a winner @ 20 to 40 .
-- [ ] Make the game responsive on mobile 
+
 
